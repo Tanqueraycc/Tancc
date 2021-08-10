@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>毕业设计管理系统</title>
+		<style>
+			body{
+				background-color: indianred;
+			}
+			#topimg{
+				height: 15%;
+			}
+			#logindiv{
+				background-color: white;
+				width: 550px;
+				height: 530px;
+				text-align: center;
+				margin: 0 auto;
+				/*div居中*/
+				margin-top: 100px;
+				/*上外边框距离100px*/
+				padding-top: 10px;
+				/*上内边框距离10px*/
+			}
+			#uname{
+				width: 426px;
+				height: 55px;
+				border: 2px solid darkgrey;
+				border-radius: 5px;
+				/*边框角弧度*/
+				margin-left: -30px;
+				/*左外边框距离-30px*/
+				background-color: transparent;
+				/*背景颜色设置为透明*/
+				padding-left: 30px;
+			}
+			#ups{
+				width: 426px;
+				height: 55px;
+				border: 2px solid darkgrey;
+				border-radius: 5px;
+				/*边框角弧度*/
+				margin-left: -30px;
+				/*左外边框距离-30px*/
+				background-color: transparent;
+				/*背景颜色设置为透明*/
+				padding-left: 30px;
+				margin-top: 10px;
+			}
+			#loginbutton{
+				width: 456px;
+				height: 55px;
+				background-color: indianred;
+				color: white;
+				border-radius: 5px;
+				border: 2px solid transparent;
+				margin-top: 15px;
+				margin-bottom: 15px;
+			}
+			#bottomdiv{
+				margin-top: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="logindiv">
+			<img id="topimg" src="../Day03/图片素材/nuc.png">
+			<h1>毕业设计管理系统</h1>
+			<img src="../Day03/图片素材/lALPDgQ9yIA4n9gUFA_20_20.png_720x720q90g.jpg">
+			<input type="text" placeholder="请输入用户名" id="uname">
+			<br>
+			<img src="../Day03/图片素材/lALPDgQ9yIA-N8oUFA_20_20.png_720x720q90g.jpg">
+			<input type="text" placeholder="请输入密码" id="ups">
+			<br>
+			<button id="loginbutton">登录</button>
+			<br>
+			<a href="https://open.weixin.qq.com/connect/qrconnect?appid=wxafc256bf83583323&redirect_uri=https%3A%2F%2Fpassport.bilibili.com%2Flogin%2Fsnsback%3Fsns%3Dwechat%26%26state%3Dc6e06860ef8011eba8e5ae0b70ecbf76&response_type=code&scope=snsapi_login&state=authorize#wechat_redirect">
+				<img src="../Day03/图片素材/weixin.png">
+			</a>
+			<a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&state=authorize&client_id=101135748&redirect_uri=https%3A%2F%2Fpassport.bilibili.com%2Flogin%2Fsnsback%3Fsns%3Dqq%26%26state%3Dc6e06860ef8011eba8e5ae0b70ecbf76&scope=do_like,get_user_info,get_simple_userinfo,get_vip_info,get_vip_rich_info,add_one_blog,list_album,upload_pic,add_album,list_photo,get_info,add_t,del_t,add_pic_t,get_repost_list,get_other_info,get_fanslist,get_idollist,add_idol,del_idol,get_tenpay_addr">
+				<img src="../Day03/图片素材/qq.png">
+			</a>
+			<a href="https://api.weibo.com/oauth2/authorize?client_id=2841902482&redirect_uri=https%3A%2F%2Fpassport.bilibili.com%2Flogin%2Fsnsback%3Fsns%3Dweibo%26state%3Dc6e06860ef8011eba8e5ae0b70ecbf76&scope=email###">
+				<img src="../Day03/图片素材/weibo.png">
+			</a>
+			<div id="bottomdiv">
+				开发者：王宇璨 中北大学 软件学院
+				<br>
+				技术支持：英才科技有限公司
+			</div>
+		</div>
+		
+	</body>
+</html>
